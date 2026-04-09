@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netstat -ano)",
+      "Bash(grep -o \"FFD100\\\\|C9A84C\" c:/Users/user/Desktop/agapeartsproduction/dist/assets/index-*.css)",
+      "Bash(grep -o \"#[a-fA-F0-9]\\\\{6\\\\}\" c:/Users/user/Desktop/agapeartsproduction/dist/assets/index-*.css)",
+      "Bash(taskkill /PID 33328 /F)",
+      "Bash(cmd /c \"taskkill /PID 33328 /F\")",
+      "Bash(cmd /c \"taskkill /PID 33328 /F 2>&1\")",
+      "Bash(powershell -Command \"Stop-Process -Id 33328 -Force\")"
+    ]
+  }
+}
